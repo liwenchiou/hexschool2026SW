@@ -48,15 +48,17 @@ body {
 }
 
 #root {
-  width: 1126px;
-  max-width: 100%;
+  max-width: 1320px;
+  width: 100%;
+  padding-inline: 12px;
   margin: 0 auto;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  color:#404040
+  color: #404040;
 }
+
 
 /* 移除所有標籤的預設樣式，交給 Tailwind 控制 */
 /* h1, h2, h3, h4, h5, h6, p {
