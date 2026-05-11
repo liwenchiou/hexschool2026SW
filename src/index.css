@@ -48,16 +48,22 @@ body {
 }
 
 #root {
-  max-width: 1320px;
-  width: 100%;
-  padding-inline: 12px;
-  margin: 0 auto;
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   color: #404040;
 }
+
+.my-container {
+  max-width: 1320px;
+  width: 100%;
+  padding-inline: 12px;
+  margin: 0 auto;
+}
+
+
+
 
 
 /* 移除所有標籤的預設樣式，交給 Tailwind 控制 */
